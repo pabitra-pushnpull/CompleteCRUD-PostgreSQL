@@ -10,6 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ClientResponseWrapper {
+	
 
 	private String message;
 	private Object data;
