@@ -29,7 +29,8 @@ public class ClientService {
 		ClientResponseWrapper rw = new ClientResponseWrapper();
 		rw.setData(allClients);
 		rw.setMessage("All Data of Clients.");
-	
+
+		
 		return new ResponseEntity<>(rw, HttpStatus.FOUND);
 	}
 	
