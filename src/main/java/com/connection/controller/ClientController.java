@@ -19,8 +19,8 @@ public class ClientController {
 
     private final ClientService clientService;
 
-    ClientController(ClientService clientService) {
-        this.clientService = clientService;
+    ClientController(ClientService service) {
+        this.clientService = service;
     }
 	
     @GetMapping("/all")
